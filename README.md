@@ -23,3 +23,10 @@ i'm build Html,css javascript modern responsive eccomerce website
   ![image](/img/b4.png)
   ![image](/img/b5.png)
   ![image](/img/b6.png)
+ ## Today i make shop website new about page updates
+  ![image](/img/a1.png)
+  ![image](/img/a2.png)
+  ![image](/img/a3.png)
+  ![image](/img/a4.png)
+  ![image](/img/a5.png)
+ 
