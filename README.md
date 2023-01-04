@@ -29,4 +29,9 @@ i'm build Html,css javascript modern responsive eccomerce website
   ![image](/img/a3.png)
   ![image](/img/a4.png)
   ![image](/img/a5.png)
- 
+  ## Today i make shop website new contact and cart page updates
+   ![image](/img/c1.png)
+   ![image](/img/c2.png)
+   ![image](/img/c3.png)
+   ![image](/img/c4.png)
+   ![image](/img/c5.png)

@@ -762,13 +762,206 @@ button.white{
     -ms-border-radius: 10px;
     -o-border-radius: 0px;
 }
+/* contact page */
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details span{
+    font-size: 12px;
+}
+
+#contact-details .details h2,
+#form-details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+  
+}
+.details ul {
+   list-style: none;
+}
+.details ul li {
+    display: flex;
+    padding: 10px 0;
+
+}
+
+.details ul li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+.details ul li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details map iframe{
+    width: 100%;
+    height: 100%;
+
+}
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+.people div{
+ padding-bottom: 25px;
+ display: flex;
+ align-items: flex-start;
+}
 
 
+.people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
 
+.people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
 
+.people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
 
+/* card page */
+#card table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
 
+#card table img{
+    width: 70px;
+}
 
+#card table td{
+    width: 100px;
+    text-align: center;
+}
+#card table td input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#card table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+#card table thead th{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#card table tbody tr td{
+    padding-top: 13px;
+   
+}
+
+#card table tbody td{
+    font-size: 13px;
+}
+/* card */
+#card {
+    overflow-x: auto;
+}
+
+#card-add{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#coupon h3,
+.subtotal h3{
+    padding-bottom: 15px;
+}
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+#coupon button,
+.subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+}
+.subtotal{
+    border: 1px solid #e2e9e1;
+    width:50%;
+    margin-bottom: 30px;
+    padding: 30px;
+
+}
+.subtotal table{
+    border-collapse: collapse; 
+    width: 100%;
+    margin-bottom: 20px;
+}
+.subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
 
 
 
@@ -874,6 +1067,13 @@ button.white{
        
         width: 70%;
     }
+
+    /* contact page */
+    #card {
+        overflow-x: auto;
+    }
+
+    
 }
 
 @media (max-width:477px) {
@@ -944,5 +1144,25 @@ button.white{
     #about-app .video {
         width: 100%;
       
+    }
+
+    #contact-details {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details map{
+        width: 100%;
+       
+    }
+    #card {
+        overflow-x: auto;
     }
 }
